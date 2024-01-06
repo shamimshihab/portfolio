@@ -39,7 +39,13 @@ export const experiencesData = [
     employer: "Shinobi Systems",
     location: "Vancouver, BC",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "• Design and develop a cutting-edge network video recorder web application by leveraging Shinobi’s Rest API, establishing a centralized hub for seamless video surveillance and management.\n\n" +
+      "• Develop a reusable, component-based user interface, ensuring exceptional performance across various platforms and have cross-browser compatibility while optimizing speed and scalability.\n\n" +
+      "• Implement a real-time alert system and customizable event scheduling, collaborating closely with the backend team to ensure secure integrations that met usability and performance benchmarks.\n\n" +
+      "• Enhance user engagement by implementing advanced video management features encompassing selection, search, and sorting functionalities and transform the web application into a desktop version for alpha testing for clients.\n\n" +
+      "• Operate within an agile environment, plan sprints, and adhere to Scrum guidelines for the development process.\n\n" +
+      "• Assist clients in resolving technical issues, evaluating their feedback, and iteratively refining the development processes to meet clients' evolving demands.\n\n" +
+      "• Technologies Used: React, Redux, JavaScript, TypeScript, HTML, CSS, Material-UI, Rest API, Video.Js, Git, Electron, Socket.Io",
     icon: React.createElement(FaReact),
     date: "2023 - present",
   },
