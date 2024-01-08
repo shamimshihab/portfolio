@@ -7,6 +7,8 @@ import { useSectionInView } from "@/lib/hooks";
 import { sendEmail } from "@/actions/sendEmail";
 import SubmitBtn from "./submit-btn";
 import toast from "react-hot-toast";
+import { BsArrowRight, BsLinkedin } from "react-icons/bs";
+import { FaGithubSquare } from "react-icons/fa";
 
 export default function Contact() {
   const { ref } = useSectionInView("Contact");
@@ -37,6 +39,22 @@ export default function Contact() {
           shamimshihab56@gmail.com
         </a>{" "}
         or through this form.
+        {/* <span className="flex flex-col">
+          <a
+            className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+            href="https://www.linkedin.com/in/shamim-shihab/"
+            target="_blank"
+          >
+            <BsLinkedin />
+          </a>
+          <a
+            className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+            href="https://github.com/shamimshihab"
+            target="_blank"
+          >
+            <FaGithubSquare />
+          </a>
+        </span> */}
       </p>
 
       <form
@@ -67,7 +85,14 @@ export default function Contact() {
           required
           maxLength={5000}
         />
-        <SubmitBtn />
+
+        <div className="flex justify-center mt-10">
+          {/* <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+    Click me
+  </button> */}
+
+          <SubmitBtn />
+        </div>
       </form>
     </motion.section>
   );

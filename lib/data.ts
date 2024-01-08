@@ -2,10 +2,13 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-// import corpcommentImg from "@/public/corpcomment.png";
+import corpcommentImg from "@/public/corpcomment.png";
 // import rmtdevImg from "@/public/rmtdev.png";
 // import wordanalyticsImg from "@/public/wordanalytics.png";
 
+import blog from "@/app/assets/blog.jpg";
+import ecommerce from "@/app/assets/e-commerce.png";
+import teamMember from "@/app/assets/teamMember.png";
 export const links = [
   {
     name: "Home",
@@ -72,25 +75,38 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "Full-Stack Blog App",
-    description: "",
-    tags: ["React", "Node.js", "MongoDB", "Material Ui", "Context-Api"],
-    // imageUrl: corpcommentImg,
+    description:
+      "The Full Stack Blog Application is a comprehensive blogging platform that incorporates modern technologies to offer an intuitive user experience. It provides a feature-rich interface for users to register, log in, and perform CRUD operations on blog posts. The system ensures secure user authentication and facilitates seamless content creation, viewing, editing, and deletion. It prioritizes a user-centric design and robust functionality, enabling individuals to engage with and manage blog content efficiently.",
+    tags: [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Material Ui",
+      "Context-Api",
+    ],
+    imageUrl: blog,
+
+    // imageUrl: rmtdevImg,
     githubLink: "https://github.com/shamimshihab/Full-Stack-Blog-",
     liveProjectLink: "https://test-seven-gamma-80.vercel.app/",
   },
   {
     title: "E-commerce Website",
-    description: "",
-    tags: ["React", "Tailwind", "Redux"],
-    // imageUrl: rmtdevImg,
+    description:
+      "Developeda a e-commerce platform, focused on delivering a responsive and versatile shopping experience. It presents a rich array of features including product browsing, comprehensive search and and filtering options, detailed product insights, cart management, and streamlined payment processing. With its emphasis on front-end development, Shoppers ensures seamless usability across diverse devices, providing users with an immersive and convenient online shopping environment.",
+    tags: ["React", "Bootstrap", "Context-Api"],
+    imageUrl: ecommerce,
     githubLink: "https://github.com/shamimshihab/E-commerce-Website",
-    liveProjectLink: "",
+    liveProjectLink:
+      "https://vercel.com/shamimshihabs-projects/e-commerce-website/DLQJifRtmNzJLCbGE87ToAuxSMGg",
   },
   {
     title: "Micro Front End Team managment App",
-    description: "",
+    description:
+      "The Team Member Management App employs a cutting-edge micro frontend architecture, dividing the frontend into distinct micro apps. This setup enables seamless management of team member information with intuitive CRUD operations. Features like pagination, mandatory fields, and validation ensure organized data handling and a user-friendly experience.",
     tags: ["React", "Micro-Front-End", "Node.js", "MongoDB", "Material Ui"],
-    // imageUrl: wordanalyticsImg,
+    imageUrl: teamMember,
     githubLink: "https://github.com/shamimshihab/Team-Member-Management-App",
     liveProjectLink: "",
   },
@@ -115,15 +131,30 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
   "JavaScript",
   "TypeScript",
   "React",
   "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
+  "Express",
+  "React Native",
+  "Python",
+  "Micro-Frontend",
+
+  "AWS",
   "MongoDB",
+  "MySQL",
   "Redux",
+
+  "Git",
+  "Github",
+  "Socket.io",
+  "Web-Socket",
+  "Context-Api",
+  "Material-UI",
+  "Tailwind",
+  "Bootstrap",
+  "Jest",
+  "Jira",
+  "HTML",
+  "CSS",
 ] as const;
