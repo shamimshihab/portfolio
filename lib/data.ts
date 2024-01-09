@@ -9,6 +9,8 @@ import corpcommentImg from "@/public/corpcomment.png";
 import blog from "@/app/assets/blog.jpg";
 import ecommerce from "@/app/assets/e-commerce.png";
 import teamMember from "@/app/assets/teamMember.png";
+import note from "@/app/assets/note.png";
+import youtubeClone from "@/app/assets/youtube.png";
 export const links = [
   {
     name: "Home",
@@ -19,17 +21,19 @@ export const links = [
     hash: "#about",
   },
   {
-    name: "Projects",
-    hash: "#projects",
-  },
-  {
     name: "Skills",
     hash: "#skills",
   },
+
   {
     name: "Experience",
     hash: "#experience",
   },
+  {
+    name: "Projects",
+    hash: "#projects",
+  },
+
   {
     name: "Contact",
     hash: "#contact",
@@ -57,17 +61,24 @@ export const experiencesData = [
     employer: "Inspire: STEM for Social Impact(Co-Op)",
     location: "Victoria, BC",
     description:
-      "Developed and designed a cross-platform mobile app with an accessibility-focused UI for Victoria Brain Injury Society to ensure that adults with brain injury find support without barriers. Produced high-quality mock-ups and prototypes for user feedback, integrating user feedback into a user-centric design and documenting appropriate processes for using the application. Conducted testing, ensured optimal app performance and responsiveness, and participated in code reviews to maintain high-quality products. Presented project achievements and details at the Inspire conference, resulting in securing additional funding for the project’s extension. Led and coordinated multidisciplinary team members and organized discussions within the team to design, strategize, and implement the product.",
-    icon: React.createElement(LuGraduationCap),
+      "• Developed and designed a cross-platform mobile app with an accessibility-focused UI for Victoria Brain Injury Society to ensure that adults with brain injury find support without barriers.\n\n" +
+      "• Produced high-quality mock-ups and prototypes for user feedback, integrating user feedback into a user-centric design and documenting appropriate processes for using the application.\n\n" +
+      "• Conducted testing, ensured optimal app performance and responsiveness, and participated in code reviews to maintain high-quality products.\n\n" +
+      "• Presented project achievements and details at the Inspire conference, resulting in securing additional funding for the project’s extension.\n\n" +
+      "• Led and coordinated multidisciplinary team members and organized discussions within the team to design, strategize, and implement the product.",
+
+    icon: React.createElement(CgWorkAlt),
     date: "2022",
   },
+
   {
     title: "Research Assistant & Teaching Assistant",
     employer: "University of Victoria",
     location: "Victoria, BC",
     description:
-      "Researched on securing IoT authentication protocol and found security vulnerabilities in existing schemes.Proposed a secure and efficient authentication protocol for practical implementation",
-    icon: React.createElement(CgWorkAlt),
+      "• Researched on securing IoT authentication protocol and found security vulnerabilities in existing schemes.\n\n" +
+      "• Proposed a secure and efficient authentication protocol for practical implementation.",
+    icon: React.createElement(LuGraduationCap),
     date: "2020 - 2022",
   },
 ] as const;
@@ -113,20 +124,24 @@ export const projectsData = [
 
   {
     title: "Backend Note Taking App",
-    description: "",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    // imageUrl: rmtdevImg,
-    githubLink: "",
+    description:
+      "The Note Taking App Backend provides a RESTful API allowing users to manage notes. It enables user registration, authentication, and various note operations like creation, retrieval, update, and deletion. Additionally, the app facilitates secure user authentication and supports note sharing among users.",
+    tags: ["Node.js", "Express.js", "MongoDb"],
+    imageUrl: note,
+    githubLink:
+      "https://github.com/shamimshihab/Note-Taking-App-Backend/tree/main",
     liveProjectLink: "",
   },
 
   {
     title: "Youtube Clone App",
-    description: "",
-    tags: ["React", "Redux", "Material Ui", "Context-Api"],
-    // imageUrl: rmtdevImg,
-    githubLink: "",
-    liveProjectLink: "",
+    description:
+      "This project aims to develop a responsive video platform resembling YouTube, ensuring smooth adaptability across diverse devices. Leveraging the Rapid API, it fetches YouTube data to showcase videos and channels. Users can search, playback videos, explore related channels, and receive suggested content, all designed with responsive design principles and integrated video playback functionalities.",
+    tags: ["React", "Material Ui", "Context-Api", "Rapid-Api"],
+    imageUrl: youtubeClone,
+    githubLink: "https://github.com/shamimshihab/Youtube-Clone-",
+    liveProjectLink:
+      "https://659cbf4b59b43b5c0c93a5e4--gregarious-crepe-2148db.netlify.app/",
   },
 ] as const;
 
@@ -139,12 +154,10 @@ export const skillsData = [
   "React Native",
   "Python",
   "Micro-Frontend",
-
   "AWS",
   "MongoDB",
   "MySQL",
   "Redux",
-
   "Git",
   "Github",
   "Socket.io",
