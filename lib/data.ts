@@ -113,6 +113,16 @@ export const projectsData = [
       "https://vercel.com/shamimshihabs-projects/e-commerce-website/DLQJifRtmNzJLCbGE87ToAuxSMGg",
   },
   {
+    title: "Youtube Clone App",
+    description:
+      "This project aims to develop a responsive video platform resembling YouTube, ensuring smooth adaptability across diverse devices. Leveraging the Rapid API, it fetches YouTube data to showcase videos and channels. Users can search, playback videos, explore related channels, and receive suggested content, all designed with responsive design principles and integrated video playback functionalities.",
+    tags: ["React", "Material Ui", "Context-Api", "Rapid-Api"],
+    imageUrl: youtubeClone,
+    githubLink: "https://github.com/shamimshihab/Youtube-Clone-",
+    liveProjectLink:
+      "https://659e3340a17148a96f1942fe--candid-custard-c7022a.netlify.app/",
+  },
+  {
     title: "Micro Front End Team managment App",
     description:
       "The Team Member Management App employs a cutting-edge micro frontend architecture, dividing the frontend into distinct micro apps. This setup enables seamless management of team member information with intuitive CRUD operations. Features like pagination, mandatory fields, and validation ensure organized data handling and a user-friendly experience.",
@@ -131,17 +141,6 @@ export const projectsData = [
     githubLink:
       "https://github.com/shamimshihab/Note-Taking-App-Backend/tree/main",
     liveProjectLink: "",
-  },
-
-  {
-    title: "Youtube Clone App",
-    description:
-      "This project aims to develop a responsive video platform resembling YouTube, ensuring smooth adaptability across diverse devices. Leveraging the Rapid API, it fetches YouTube data to showcase videos and channels. Users can search, playback videos, explore related channels, and receive suggested content, all designed with responsive design principles and integrated video playback functionalities.",
-    tags: ["React", "Material Ui", "Context-Api", "Rapid-Api"],
-    imageUrl: youtubeClone,
-    githubLink: "https://github.com/shamimshihab/Youtube-Clone-",
-    liveProjectLink:
-      "https://659cbf4b59b43b5c0c93a5e4--gregarious-crepe-2148db.netlify.app/",
   },
 ] as const;
 
