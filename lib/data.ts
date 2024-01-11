@@ -47,11 +47,11 @@ export const experiencesData = [
     location: "Vancouver, BC",
     description:
       "• Design and develop a cutting-edge network video recorder web application by leveraging Shinobi’s Rest API, establishing a centralized hub for seamless video surveillance and management.\n\n" +
-      "• Develop a reusable, component-based user interface, ensuring exceptional performance across various platforms and have cross-browser compatibility while optimizing speed and scalability.\n\n" +
-      "• Implement a real-time alert system and customizable event scheduling, collaborating closely with the backend team to ensure secure integrations that met usability and performance benchmarks.\n\n" +
-      "• Enhance user engagement by implementing advanced video management features encompassing selection, search, and sorting functionalities and transform the web application into a desktop version for alpha testing for clients.\n\n" +
-      "• Operate within an agile environment, plan sprints, and adhere to Scrum guidelines for the development process.\n\n" +
-      "• Assist clients in resolving technical issues, evaluating their feedback, and iteratively refining the development processes to meet clients' evolving demands.\n\n" +
+      "• Implemented a real-time information dashboard and alert system, enabling users to create and customize alert schedules. This involved choosing preferred notification methods and defining tailored actions, significantly enhancing the overall system's efficiency and responsiveness to individual preferences. \n\n" +
+      "• Revitalized user engagement by transforming the recorded video searching feature. Enabled seamless listing, watching, archiving, deleting, and downloading of single or multiple videos based on specified time frames. Additionally, transformed the web application into a desktop version for alpha testing with clients.\n\n" +
+      "• Empowered users to navigate individual monitors effortlessly at specified times using an intuitive mouse slider. Delivered results in a visually captivating format, featuring recorded videos, alert notifications, and associated snapshots for a seamless monitoring experience.\n\n" +
+      "• Developed a reusable, component-based user interface, ensuring exceptional performance across various platforms and achieving cross-browser compatibility. Assisted clients in resolving technical issues, evaluated their feedback, and iteratively refined development processes to meet evolving client demands.\n\n" +
+      "• Collaborated closely with the backend team to ensure secure integrations, meeting usability and performance benchmarks. Operated within an agile environment, planned sprints, and adhered to Scrum guidelines throughout the development process.\n\n" +
       "• Technologies Used: React, Redux, JavaScript, TypeScript, HTML, CSS, Material-UI, Rest API, Video.Js, Git, Electron, Socket.Io",
     icon: React.createElement(FaReact),
     date: "2023 - present",
@@ -65,8 +65,8 @@ export const experiencesData = [
       "• Produced high-quality mock-ups and prototypes for user feedback, integrating user feedback into a user-centric design and documenting appropriate processes for using the application.\n\n" +
       "• Conducted testing, ensured optimal app performance and responsiveness, and participated in code reviews to maintain high-quality products.\n\n" +
       "• Presented project achievements and details at the Inspire conference, resulting in securing additional funding for the project’s extension.\n\n" +
-      "• Led and coordinated multidisciplinary team members and organized discussions within the team to design, strategize, and implement the product.",
-
+      "• Led and coordinated multidisciplinary team members and organized discussions within the team to design, strategize, and implement the product.\n\n" +
+      "• Technologies Used: JavaScript, React Native, Redux, Firebase, Git, Jira",
     icon: React.createElement(CgWorkAlt),
     date: "2022",
   },
@@ -76,8 +76,8 @@ export const experiencesData = [
     employer: "University of Victoria",
     location: "Victoria, BC",
     description:
-      "• Researched on securing IoT authentication protocol and found security vulnerabilities in existing schemes.\n\n" +
-      "• Proposed a secure and efficient authentication protocol for practical implementation.",
+      "• Researched on securing IoT authentication protocol and found security vulnerabilities in existing schemes. Proposed a secure and efficient authentication protocol for practical implementation.,\n\n" +
+      "• Assisted students with course material, marked exam script, helping the instructor ",
     icon: React.createElement(LuGraduationCap),
     date: "2020 - 2022",
   },
