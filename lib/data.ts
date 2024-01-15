@@ -120,7 +120,7 @@ export const projectsData = [
     imageUrl: youtubeClone,
     githubLink: "https://github.com/shamimshihab/Youtube-Clone-",
     liveProjectLink:
-      "https://video-tube-youtube-clone.netlify.app/video/6ZKDdzqN6B4",
+      "https://video-tube-youtube-clone.netlify.app/",
   },
   {
     title: "Micro Front End Team managment App",
