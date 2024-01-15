@@ -110,7 +110,7 @@ export const projectsData = [
     imageUrl: ecommerce,
     githubLink: "https://github.com/shamimshihab/E-commerce-Website",
     liveProjectLink:
-      "https://vercel.com/shamimshihabs-projects/e-commerce-website/DLQJifRtmNzJLCbGE87ToAuxSMGg",
+      "https://e-commerce-website-nine-amber.vercel.app/",
   },
   {
     title: "Youtube Clone App",
