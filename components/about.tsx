@@ -19,14 +19,16 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        Passionate Frontend and Web Developer with a strong foundation in
-        JavaScript and a knack for creating user-friendly, responsive web
-        applications. Experienced in designing and developing cutting-edge
-        interfaces, optimizing performance, and ensuring seamless cross-platform
-        compatibility. AWS Cloud Practitioner Certified with expertise in cloud
-        services to enhance web applications. Committed to delivering
-        exceptional user experiences and staying up-to-date with the latest web
-        development trends and technologies.
+        Passionate full-stack developer with over 2 years of dedicated
+        experience in the dynamic field of web development applications.
+        Specialized focus on industry standards, incorporating best practices,
+        and delivering fully responsive web designs to ensure optimal user
+        experiences. Committed to achieving consumer satisfaction through
+        innovative and solution-focused results. Proven ability to adapt to
+        evolving business needs and maintain ongoing commitments. Adept at
+        leveraging in-demand skills to drive project success and contribute to
+        organizational growth. Eager to bring technical expertise, creativity,
+        and a commitment to excellence to a dynamic team or project.
       </p>
     </motion.section>
   );
