@@ -110,7 +110,7 @@ export const projectsData = [
     imageUrl: ecommerce,
     githubLink: "https://github.com/shamimshihab/E-commerce-Website",
     liveProjectLink:
-      "https://vercel.com/shamimshihabs-projects/e-commerce-website/DLQJifRtmNzJLCbGE87ToAuxSMGg",
+      "https://e-commerce-website-nine-amber.vercel.app/",
   },
   {
     title: "Youtube Clone App",
@@ -120,7 +120,7 @@ export const projectsData = [
     imageUrl: youtubeClone,
     githubLink: "https://github.com/shamimshihab/Youtube-Clone-",
     liveProjectLink:
-      "https://659e3340a17148a96f1942fe--candid-custard-c7022a.netlify.app/",
+      "https://video-tube-youtube-clone.netlify.app/",
   },
   {
     title: "Micro Front End Team managment App",
