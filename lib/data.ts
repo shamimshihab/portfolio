@@ -9,6 +9,7 @@ import corpcommentImg from "@/public/corpcomment.png";
 import blog from "@/app/assets/blog.jpg";
 import ecommerce from "@/app/assets/e-commerce.png";
 import teamMember from "@/app/assets/teamMember.png";
+import paint from "@/app/assets/paint.png";
 import note from "@/app/assets/note.png";
 import youtubeClone from "@/app/assets/youtube.png";
 export const links = [
@@ -102,6 +103,25 @@ export const projectsData = [
     githubLink: "https://github.com/shamimshihab/Full-Stack-Blog-",
     liveProjectLink: "https://test-seven-gamma-80.vercel.app/",
   },
+
+  {
+    title: "Full-Stack Paint Stock Status",
+    description:
+      "The Paint Stock Status App is a comprehensive full-stack web application developed to enhance inventory management for a paint company. This application facilitates efficient tracking and updating of paint stock levels, featuring secure user authentication and role-based access controls. It allows authorized users—ranging from painters to managers—to view and update stock statuses in real-time, ensuring accurate and efficient stock management tailored to specific user roles and permissions. Credentials and further details can be found in the README file from the GitHub repository.",
+    tags: [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Material Ui",
+      "Context-Api",
+    ],
+    imageUrl: paint,
+
+    // imageUrl: rmtdevImg,
+    githubLink: "https://github.com/shamimshihab/Paint-Stock-Status-App",
+    liveProjectLink: "https://paint-stock-app-deploy.vercel.app/",
+  },
   {
     title: "E-commerce Website",
     description:
@@ -109,8 +129,7 @@ export const projectsData = [
     tags: ["React", "Bootstrap", "Context-Api"],
     imageUrl: ecommerce,
     githubLink: "https://github.com/shamimshihab/E-commerce-Website",
-    liveProjectLink:
-      "https://e-commerce-website-nine-amber.vercel.app/",
+    liveProjectLink: "https://e-commerce-website-nine-amber.vercel.app/",
   },
   {
     title: "Youtube Clone App",
@@ -119,8 +138,7 @@ export const projectsData = [
     tags: ["React", "Material Ui", "Context-Api", "Rapid-Api"],
     imageUrl: youtubeClone,
     githubLink: "https://github.com/shamimshihab/Youtube-Clone-",
-    liveProjectLink:
-      "https://video-tube-youtube-clone.netlify.app/",
+    liveProjectLink: "https://video-tube-youtube-clone.netlify.app/",
   },
   {
     title: "Micro Front End Team managment App",
